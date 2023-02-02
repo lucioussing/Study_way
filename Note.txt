@@ -11,3 +11,7 @@ git remote add origin git@github.com:lucioussing/Study_way.git
 branch:推送分支其实就是普通推送，推送时指定branch即可，checkout
 切换分支，会导致当前文件目录不同,git merge {branchName}，会把这
 个分支合并到当前分支
+
+git tag {name}新建标签
+git push {shortname} {tagname}推送远程
+git checkout -b {branch}{tagname}切换标签到一个新分支
