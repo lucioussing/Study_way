@@ -4,3 +4,10 @@ git pull origin main
 
 本地仓库链接远程仓库：
 git remote add origin git@github.com:lucioussing/Study_way.git
+
+如果本地仓库是本地创建的，而不是从远程克隆的，此时从远程拉取时由于
+没有版本库同步，需要加入--allow-unrelated-histories
+
+branch:推送分支其实就是普通推送，推送时指定branch即可，checkout
+切换分支，会导致当前文件目录不同,git merge {branchName}，会把这
+个分支合并到当前分支
