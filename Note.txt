@@ -15,3 +15,8 @@ branch:推送分支其实就是普通推送，推送时指定branch即可，chec
 git tag {name}新建标签
 git push {shortname} {tagname}推送远程
 git checkout -b {branch}{tagname}切换标签到一个新分支
+
+idea简化了git，勾选了add后更改会直接添加到缓存区，点击commit会弹出来需要提交的东西
+
+ddd
+
