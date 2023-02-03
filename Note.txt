@@ -25,3 +25,4 @@ LINUX
 
 more filename显示文件内容,enter下一行blankspace下一屏,b回上一屏，q/ctrl+c退出
 tail filename显示文件末尾内容
+mv filename dest/filename移动改名
