@@ -1,4 +1,6 @@
 笔记
+GIT
+
 push失败需要先将远程仓库和本地仓库同步一下：
 git pull origin main
 
@@ -18,5 +20,8 @@ git checkout -b {branch}{tagname}切换标签到一个新分支
 
 idea简化了git，勾选了add后更改会直接添加到缓存区，点击commit会弹出来需要提交的东西
 
-ddd
 
+LINUX
+
+more filename显示文件内容,enter下一行blankspace下一屏,b回上一屏，q/ctrl+c退出
+tail filename显示文件末尾内容
